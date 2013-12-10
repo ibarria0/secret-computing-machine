@@ -10,16 +10,7 @@ sudo apt-get update -y
 sudo apt-get upgrade -y
 
 #hay que instalar un pocoton de vainas para poder hacer los builds
-sudo apt-get install build-essential libssl-dev libminiupnpc-dev libdb++-dev libdb-dev git -y
-
-#build libboost
-cd
-wget -O boost.tar.gz 'http://downloads.sourceforge.net/project/boost/boost/1.48.0/boost_1_48_0.tar.gz'
-tar -xvf boost.tar.gz
-rm -rf boost.tar.gz
-cd boost_1_48_0
-sudo ./bootstrap.sh
-sudo ./bjam install
+sudo apt-get install build-essential libssl-dev libminiupnpc-dev libdb++-dev libdb-dev git gcc-4.8 g++-4.8 libgcc-4.8-dev libboost-all-dev libboost-dev libgmp3-dev -y
 
 cd
 git clone https://github.com/donSchoe/xolominer.git
