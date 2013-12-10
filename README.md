@@ -1,8 +1,7 @@
 secret-computing-machine
 ========================
 
-Deploy a xolominer on ubuntu
------------------------------
+Installs a bunch of software with the intent to build xolominer.
 
 
 Install the software
@@ -14,12 +13,12 @@ Run the miner
 change the settings to work with your address
 ```bash
 cd ~/xolominer/src
-./primeminer -pooluser=AJySpejgkT9NiR8z4bUzRKF9uvfGTzaaRn -poolip=54.200.248.75 -poolport=1337 -genproclimit=3
+./primeminer -pooluser=ATsiZPorFgedgRd7Z7ZqkYGauSyqg19bBf -poolip=54.200.248.75 -poolport=1337 -genproclimit=3
 ```
 
 
 donations:
 
-BTC: 1MPmtrXexTX2Vuh7Hq3arT9kkMm9y89MkE
-
-LTC: AJySpejgkT9NiR8z4bUzRKF9uvfGTzaaRn
+XTC: AJySpejgkT9NiR8z4bUzRKF9uvfGTzaaRn     
+BTC: 1MPmtrXexTX2Vuh7Hq3arT9kkMm9y89MkE    
+LTC: LgKQWTJ2nyfUDcr8yDGEYy8KTWnegUsoiB    
