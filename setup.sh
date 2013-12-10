@@ -1,5 +1,6 @@
 #!/bin/bash
-sudo apt-get remove --purge libreoffice-* rhythmbox thunderbird* shotwell* 
+#add this line if you want to get some free space
+#sudo apt-get remove --purge libreoffice-* rhythmbox thunderbird* shotwell* 
 
 #bitcoin ppa
 sudo add-apt-repository ppa:bitcoin/bitcoin -y
