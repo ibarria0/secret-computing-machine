@@ -13,7 +13,7 @@ Run the miner
 change the settings to work with your address
 ```bash
 cd ~/xolominer/src
-./primeminer -pooluser=ATsiZPorFgedgRd7Z7ZqkYGauSyqg19bBf -poolip=54.200.248.75 -poolport=1337 -genproclimit=3
+./primeminer -pooluser=Adkdohuf9ZnEBiawjDhgThCDxhoGqwhj8x -poolip=54.200.248.75 -poolport=1337 -genproclimit=3
 ```
 
 
