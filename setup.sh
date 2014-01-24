@@ -11,5 +11,5 @@ sudo apt-get install build-essential libssl-dev libminiupnpc-dev libdb++-dev lib
 
 cd
 git clone https://github.com/thbaumbach/primecoin.git
-cd xolominer/src
+cd primecoin/src
 make -f makefile.unix
